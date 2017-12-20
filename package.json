@@ -1,0 +1,27 @@
+{
+  "name": "calcular_area",
+  "version": "0.1.0",
+  "description": "Calcula área de figuras geométricas",
+  "main": "dist/src/area.js",
+  "scripts": {
+    "build": "babel src/area.js -d dist",
+    "test":"mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emandujanor/calcular_area.git"
+  },
+  "keywords": [
+    "geometría",
+    "calculo",
+    "área",
+    "js"
+  ],
+  "author": "EdithMandujano <edithmandujano001@gmail.com> (https://github.com/emandujanor)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
